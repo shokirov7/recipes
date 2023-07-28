@@ -1,0 +1,21 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+}
+.App.night {
+  background-color: #2b2b2b;
+}
+.App.night .card,
+.App.night form:not(.input_block_ingred){
+  background-color: #1b1b1b;
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 28px 0px rgba(226, 226, 226, 0.15);
+  -moz-box-shadow: 0px 0px 28px 0px rgba(226, 226, 226, 0.15);
+  box-shadow: 0px 0px 28px 0px rgba(226, 226, 226, 0.15);
+}
+.App.night form {
+  background-color: #212121;
+}
+.App.night .input_block_ingred{
+  background-color: transparent !important;
+}
